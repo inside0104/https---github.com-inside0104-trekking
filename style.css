@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Container
+===================*/
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0% auto;
+}
+
+/*header
+===================*/
+.header{
+    width: 100%;
+    height: 100px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.header__logo{
+    padding-top: 40px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between ;
+    align-items:center;
+}
+/*nav
+===================*/
+.nav{
+    padding-top: 50px ;
+    padding-right: 50px;
+}
+
+.nav__link{
+    margin-right: 30px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+/*intro
+===================*/
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 788px;
+    padding-top: 68px;
+    background-image: url(img/intro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro__inner{
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+
+    text-align: center
+}
+
+.intro__style{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    margin: 0 0 30px;
+    text-align: center;
+    color:white;
+    text-transform: uppercase;
+
+}
+
+.intro__subtitle{
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+/*chekbox
+===================*/
+
+.choice{
+    padding: 40px 300px ;
+    height: 153px;
+    background-color: #f5f6f7;
+}
+.choice_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.chekbox1{
+  
+    padding-top: 20px;
+      
+}
+.chekbox1 label {
+    padding-right: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+/*button
+===================*/
+  .butt{
+      border: 3px solid #aa9b77;
+      text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    width: 200px;
+    height: 53px;
+    background-color:#aa9b77;
+    text-align: center;
+    padding: 13px;
+    border-radius:2%;
+  }
+  /*content
+===================*/
+.title {
+
+    margin-top: 20px;
+	font-size: 20px;
+	color: rgb(50, 50, 50);
+	text-transform: uppercase;
+	line-height: 1.5;
+	position: relative;
+}
+.title span {
+    color:rgb(50, 50, 50);
+	background: #fff;
+	display: inline-block;
+	
+	position: relative;
+}
+.title:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;        
+	width: 100%;
+	height: 3px; /* ширина линии */
+	background: #f3f4f2; /* цвет линии */
+}
