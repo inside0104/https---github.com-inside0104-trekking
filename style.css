@@ -163,3 +163,58 @@ body{
 	height: 3px; /* ширина линии */
 	background: #f3f4f2; /* цвет линии */
 }
+.title1 {
+
+    margin-top: 20px;
+	font-size: 20px;
+	color: rgb(50, 50, 50);
+	text-transform: uppercase;
+	line-height: 1.5;
+	position: relative;
+}
+.title1 span {
+    color:rgb(50, 50, 50);
+	background: #fff;
+	display: inline-block;
+	
+	position: relative;
+}
+.title1:before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;        
+	width: 100%;
+	height: 3px; /* ширина линии */
+	background: #f3f4f2; /* цвет линии */
+}
+  /*products
+===================*/
+
+.products_wrapper{
+    margin-top: 40px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+.product{
+    border-radius: 5px;
+    outline: 5px solid #aa9b77; 
+    background-color:#f5f6f7;
+    width: 320px;
+    height: 380px;
+    background-image:url(img/content_men.png);
+    background-repeat: no-repeat;
+    background-position:center;
+
+
+}
+
+.product_title{
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.product_price{
+    
+}
