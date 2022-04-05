@@ -290,3 +290,23 @@ body {
     height: 70px;
     background-color: #535253;
 }
+
+.fw{
+ 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 300px;
+}
+.tittle_tw{
+    color:white;
+    text-decoration: none;
+    padding-bottom: 30px;
+    align-items:center;
+    margin-left: 20px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.tw1{
+    text-decoration: none;
+}
