@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Quicksand', sans-serif;
@@ -14,7 +14,7 @@ body{
 
 /* Container
 ===================*/
-.container{
+.container {
     width: 100%;
     max-width: 1170px;
     margin: 0% auto;
@@ -22,7 +22,7 @@ body{
 
 /*header
 ===================*/
-.header{
+.header {
     width: 100%;
     height: 100px;
 
@@ -33,23 +33,24 @@ body{
 }
 
 
-.header__logo{
+.header__logo {
     padding-top: 40px;
 }
 
-.header__inner{
+.header__inner {
     display: flex;
-    justify-content: space-between ;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
 }
+
 /*nav
 ===================*/
-.nav{
-    padding-top: 50px ;
+.nav {
+    padding-top: 50px;
     padding-right: 50px;
 }
 
-.nav__link{
+.nav__link {
     margin-right: 30px;
     color: white;
     font-size: 20px;
@@ -60,7 +61,7 @@ body{
 /*intro
 ===================*/
 
-.intro{
+.intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,7 +73,7 @@ body{
     background-size: cover;
 }
 
-.intro__inner{
+.intro__inner {
     width: 100%;
     max-width: 970px;
     margin: 0 auto;
@@ -80,39 +81,43 @@ body{
     text-align: center
 }
 
-.intro__style{
+.intro__style {
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
     margin: 0 0 30px;
     text-align: center;
-    color:white;
+    color: white;
     text-transform: uppercase;
 
 }
 
-.intro__subtitle{
+.intro__subtitle {
     font-size: 20px;
     margin: 0;
     text-align: center;
     color: white;
 }
+
 /*chekbox
 ===================*/
 
-.choice{
-    padding: 40px 300px ;
+.choice {
+    padding: 40px 300px;
     height: 153px;
     background-color: #f5f6f7;
 }
-.choice_inner{
+
+.choice_inner {
     display: flex;
     justify-content: space-between;
 }
-.chekbox1{
-  
+
+.chekbox1 {
+
     padding-top: 20px;
-      
+
 }
+
 .chekbox1 label {
     padding-right: 20px;
     font-family: 'Quicksand', sans-serif;
@@ -123,98 +128,165 @@ body{
 
 /*button
 ===================*/
-  .butt{
-      border: 3px solid #aa9b77;
-      text-decoration: none;
+.butt {
+    font-family: 'Quicksand', sans-serif;
+    border: 3px solid #aa9b77;
+    text-decoration: none;
     color: white;
     font-size: 20px;
     display: block;
     width: 200px;
     height: 53px;
-    background-color:#aa9b77;
+    background-color: #aa9b77;
     text-align: center;
     padding: 13px;
-    border-radius:2%;
-  }
-  /*content
+    border-radius: 2%;
+}
+
+/*content
 ===================*/
 .title {
-
+    font-family: 'Quicksand', sans-serif;
     margin-top: 20px;
-	font-size: 20px;
-	color: rgb(50, 50, 50);
-	text-transform: uppercase;
-	line-height: 1.5;
-	position: relative;
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+    text-transform: uppercase;
+    line-height: 1.5;
+    position: relative;
 }
+
 .title span {
-    color:rgb(50, 50, 50);
-	background: #fff;
-	display: inline-block;
-	
-	position: relative;
+    color: rgb(50, 50, 50);
+    background: #fff;
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
 }
-.title:before {
-	content: '';
-	position: absolute;
-	top: 50%;
-	left: 0;        
-	width: 100%;
-	height: 3px; /* ширина линии */
-	background: #f3f4f2; /* цвет линии */
-}
-.title1 {
 
+.title:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    /* ширина линии */
+    background: #f3f4f2;
+    /* цвет линии */
+}
+
+.title1 {
+    font-family: 'Quicksand', sans-serif;
     margin-top: 20px;
-	font-size: 20px;
-	color: rgb(50, 50, 50);
-	text-transform: uppercase;
-	line-height: 1.5;
-	position: relative;
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+    text-transform: uppercase;
+    line-height: 1.5;
+    position: relative;
 }
+
 .title1 span {
-    color:rgb(50, 50, 50);
-	background: #fff;
-	display: inline-block;
-	
-	position: relative;
+    padding-right: 20px;
+    color: rgb(50, 50, 50);
+    background: #fff;
+    display: inline-block;
+
+    position: relative;
 }
+
 .title1:before {
-	content: '';
-	position: absolute;
-	top: 50%;
-	left: 0;        
-	width: 100%;
-	height: 3px; /* ширина линии */
-	background: #f3f4f2; /* цвет линии */
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    /* ширина линии */
+    background: #f3f4f2;
+    /* цвет линии */
 }
-  /*products
+
+.slider {
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/*products
 ===================*/
 
-.products_wrapper{
-    margin-top: 40px ;
+.products_wrapper {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
-
+    padding-bottom: 40px;
 }
-.product{
+
+.product {
     border-radius: 5px;
-    outline: 5px solid #aa9b77; 
-    background-color:#f5f6f7;
+    outline: 5px solid #aa9b77;
+    background-color: #f5f6f7;
     width: 320px;
     height: 380px;
-    background-image:url(img/content_men.png);
+    background-image: url(img/content_men.png);
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
 
 
 }
 
-.product_title{
-    padding-top: 20px;
-    padding-left: 20px;
+.product_title {
+    margin-left: 20px;
+    background-image: url(img/arrow.png);
+    background-repeat: no-repeat;
+
 
 }
-.product_price{
-    
+
+.product_price {}
+
+/*info
+===================*/
+
+.info {
+
+    display: flex;
+    justify-content: center;
+    background-color: #aa9b77;
+}
+
+.ifno_blog {
+    margin: 60px;
+    width: 700px;
+    height: 260px;
+    border: 3px solid #746a53;
+    padding: 50px;
+    color: #746a53;
+}
+
+.ifno_blog:before {
+    text-transform: uppercase;
+    content: "aboust us";
+    position: absolute;
+    height: 20px;
+    background-color: #aa9b77;
+    left: 50%;
+    top: -10px;
+    transform: translateX(-50%);
+}
+
+.ifno_blog {
+
+    text-align: center;
+    position: relative;
+}
+
+.text {
+    color: black;
+}
+
+/*social
+===================*/
+.social {
+    height: 70px;
+    background-color: #535253;
 }
