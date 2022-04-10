@@ -16,8 +16,13 @@ body {
 ===================*/
 .container {
     width: 100%;
-    max-width: 1170px;
-    margin: 0% auto;
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.container--second_section {
+    padding: 50px 30px;
 }
 
 /*header
@@ -65,7 +70,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 788px;
+    height: 100vh;
     padding-top: 68px;
     background-image: url(img/intro.jpg);
     background-position: center;
@@ -102,8 +107,8 @@ body {
 ===================*/
 
 .choice {
-    padding: 40px 300px;
-    height: 153px;
+    /*padding: 40px 300px;*/
+    /*height: 153px;*/
     background-color: #f5f6f7;
 }
 
@@ -248,6 +253,10 @@ body {
     background-color: #f5f6f7;
     width: 320px;
     height: 380px;
+}
+
+.product + .product {
+    margin-left: 40px;
 }
 
 .product_position {
