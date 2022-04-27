@@ -3,8 +3,11 @@ body {
     padding: 0;
     font-family: 'Quicksand', sans-serif;
     -webkit-font-smoothing: antialiased;
-}
 
+}
+html,body{
+    overflow-x: hidden
+    }
 *,
 *:before,
 *:after {
@@ -15,10 +18,12 @@ body {
 /* Container
 ===================*/
 .container {
-    width: 100%;
+
     max-width: 1170px;
-    margin: 0% auto;
+    margin: 0 auto;
+    padding: 0 15px;
 }
+
 
 /*header
 ===================*/
@@ -32,9 +37,8 @@ body {
     z-index: 1000;
 }
 
-
-.header__logo {
-
+.header__logo{
+    padding-top:30px;
 }
 
 .header__inner {
@@ -62,10 +66,11 @@ body {
 ===================*/
 
 .intro {
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 788px;
+    height: 100vh;
     padding-top: 68px;
     background-image: url(img/intro.jpg);
     background-position: center;
@@ -75,7 +80,7 @@ body {
 
 .intro__inner {
     width: 100%;
-    max-width: 970px;
+    max-width: 1200px;
     margin: 0 auto;
 
     text-align: center
@@ -102,24 +107,26 @@ body {
 ===================*/
 
 .choice {
-    padding: 40px 300px;
-    height: 153px;
+    
+
     background-color: #f5f6f7;
 }
 
 .choice_inner {
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .chekbox1 {
-
-    padding-top: 20px;
-
+ margin-bottom: 10px;
 }
 
 .chekbox1 label {
-    padding-right: 20px;
+  
+    padding-right: 10px;
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
@@ -235,13 +242,15 @@ body {
 ===================*/
 
 .products_wrapper {
-    margin-top: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px 0;
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 40px;
+    justify-content: space-around;
 }
 
 .product {
+    margin:10px 5px;
     padding: 20px 20px;
     border-radius: 5px;
     outline: 5px solid #aa9b77;
@@ -335,14 +344,14 @@ body {
 
     display: flex;
     justify-content: space-between;
-    padding: 30px 63px;
-    ;
+    align-items:center;
+    padding: 20px 0;
+
 }
 
 .tittle_tw {
     color: white;
     text-decoration: none;
-    padding-bottom: 30px;
     align-items: center;
     margin-left: 20px;
     font-family: 'Quicksand', sans-serif;
@@ -361,6 +370,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #424242;
+
 }
 
 .footer_info {
@@ -396,3 +406,4 @@ body {
 .nav__footer:first-child {
     border-left: none;
 }
+
